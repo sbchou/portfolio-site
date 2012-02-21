@@ -1,0 +1,117 @@
+<!DOCTYPE html> 
+<html lang="en">	
+	
+	<head>		
+		
+		<meta charset="utf-8"> 
+		<title>[ADD PAGE TITLE]</title>  
+        
+        <link rel="stylesheet" href="styles/style.css" /> 
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
+        <script src="js/contact-form-process.js"></script>  
+        
+        <!--[if IE 6]>
+            <style>body { behavior: url("styles/ie6-hover-fix.htc"); }</style>
+            <script src="js/ie6-transparency.js"></script>
+            <script>
+                DD_belatedPNG.fix('#contact-form .submit');
+            </script>
+            <link rel="stylesheet" href="styles/ie6.css" />
+        <![endif]--> 
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="styles/ie7.css" />
+        <![endif]-->  
+                 
+	</head> 
+	
+	<body class="page">
+		
+		<div id="wrap"> 
+				
+        	<div id="header"> 
+        	
+        		<h1><a href="index.html" title="[ADD LINK TITLE]">[ADD COMPANY NAME]</a></h1>
+            	             	
+            	<div id="nav"> 
+            	
+        			<ul class="menu">
+        			
+        				<li><a href="index.html" title="#">Home</a></li> 
+						<li><a href="services.html" title="#">Services</a> 
+						
+							<ul class="sub-menu"> 
+								<li><a href="#" title="#">Branding</a></li> 
+								<li><a href="#" title="#">Online Marketing</a></li> 
+								<li><a href="#" title="#">Search Engine Optimization</a></li> 
+								<li><a href="#" title="#">Web Design</a></li> 
+							</ul> 
+							
+						</li>
+						 
+						<li><a href="portfolio.html" title="#">Portfolio</a></li> 
+						<li><a href="articles.html" title="#">Articles</a></li> 
+						<li class="current_page_item"><a href="contact.html" title="#">Contact</a></li> 
+						
+					</ul>
+				
+				</div><!--end nav--> 
+				                  
+            </div><!--end header--> 
+          			
+			<div id="main">    
+    			
+    			<div id="contact-details">    	
+    				
+    				<h3 class="title">Get In Touch</h3> 
+					<p>Please use the form on this page to discuss the possibility of working with us or contact us directly via phone or email.</p>           							    		
+		    		<h3>Contact Details</h3> 
+		    		<h4>Phone: <span>[ADD PHONE NUMBER]</span></h4> 
+		    		<h4>Fax: <span>[ADD FAX NUMBER]</span></h4> 
+		    		<h4>Email: <span>[ADD EMAIL]</span></h4>  
+		    		  	
+		    	</div><!--end contact-details-->  		
+			
+				<div id="contact-form-container">
+							
+					<p class='hide' id='response'></p> 
+					
+					<!-- TO CONFIGURE THE CONTACT FORM EDIT LINE 33 IN "scripts/contact-process.php" FILE AND REPLACE "your@email.com" WITH YOUR OWN EMAIL ADDRESS -->
+					<form id='contact-form' method='post' action='scripts/contact-process.php'> 
+						
+						<fieldset>					
+							<input id='form_name' type='text' name='name' value='Name' onfocus="if(this.value=='Name'){this.value=''};" onblur="if(this.value==''){this.value='Name'};" />					
+							<input id='form_email' type='text' name='email' value="Email" onfocus="if(this.value=='Email'){this.value=''};" onblur="if(this.value==''){this.value='Email'};" /> 
+							<input id='form_subject' type='text' name='subject' value="Subject" onfocus="if(this.value=='Subject'){this.value=''};" onblur="if(this.value==''){this.value='Subject'};" />			
+							<textarea id='form_message' rows='10' cols='40' name='message'></textarea>				
+							<input id='form_submit' class="submit" type='submit' name='submit' value='Submit &raquo;' />			
+							<div class='hide'> 
+								<label>Do not fill out this field</label> 
+								<input name='spam_check' type='text' value='' /> 
+							</div> 
+						</fieldset>
+						 
+					</form>	
+							
+				</div><!--end contact-form-container-->
+					
+			</div><!--end main--> 
+		
+			<div id="footer">
+			
+				<p class="copyright">Copyright © 2012 / [ADD COMPANY NAME] / All Rights Reserved</p>
+				<p class="twitter"><a href="[ADD LINK TO TWITTER]" title="[ADD LINK TITLE]">Follow Us On Twitter &rarr;</a></p>
+				
+			</div><!--end footer-->
+		
+		</div><!--end wrap--> 
+		
+		<div class="cache-images">
+	
+			<img src="images/red-button-bg.png" width="0" height="0" alt="" />
+		
+		</div><!--end cache-images--> 
+		         
+	</body>
+	
+</html>
