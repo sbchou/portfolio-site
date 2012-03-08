@@ -6,10 +6,7 @@
 		<meta charset="utf-8"> 
 		<title>[ADD PAGE TITLE]</title>  
         
-        <link rel="stylesheet" href="styles/style.css" /> 
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> 
-        <script src="js/contact-form-process.js"></script>  
+        <link rel="stylesheet" href="styles/style.css" />
         
         <!--[if IE 6]>
             <style>body { behavior: url("styles/ie6-hover-fix.htc"); }</style>
@@ -53,38 +50,12 @@
     			
     			<div id="contact-details">    	
     				
-    				<h3 class="title">Get In Touch</h3> 
-					<p>Please use the form on this page to discuss the possibility of working with us or contact us directly via phone or email.</p>           							    		
-		    		<h3>Contact Details</h3> 
-		    		<h4>Phone: <span>[ADD PHONE NUMBER]</span></h4> 
-		    		<h4>Fax: <span>[ADD FAX NUMBER]</span></h4> 
-		    		<h4>Email: <span>[ADD EMAIL]</span></h4>  
+    				<h4>You can email me at <span><a href="mailto:sbchou@gmail.com">sbchou@gmail.com</a></span> if you have any questions or would like to get in touch.</h4> 
+		  
 		    		  	
 		    	</div><!--end contact-details-->  		
 			
-				<div id="contact-form-container">
-							
-					<p class='hide' id='response'></p> 
-					
-					<!-- TO CONFIGURE THE CONTACT FORM EDIT LINE 33 IN "scripts/contact-process.php" FILE AND REPLACE "your@email.com" WITH YOUR OWN EMAIL ADDRESS -->
-					<form id='contact-form' method='post' action='scripts/contact-process.php'> 
-						
-						<fieldset>					
-							<input id='form_name' type='text' name='name' value='Name' onfocus="if(this.value=='Name'){this.value=''};" onblur="if(this.value==''){this.value='Name'};" />					
-							<input id='form_email' type='text' name='email' value="Email" onfocus="if(this.value=='Email'){this.value=''};" onblur="if(this.value==''){this.value='Email'};" /> 
-							<input id='form_subject' type='text' name='subject' value="Subject" onfocus="if(this.value=='Subject'){this.value=''};" onblur="if(this.value==''){this.value='Subject'};" />			
-							<textarea id='form_message' rows='10' cols='40' name='message'></textarea>				
-							<input id='form_submit' class="submit" type='submit' name='submit' value='Submit &raquo;' />			
-							<div class='hide'> 
-								<label>Do not fill out this field</label> 
-								<input name='spam_check' type='text' value='' /> 
-							</div> 
-						</fieldset>
-						 
-					</form>	
-							
-				</div><!--end contact-form-container-->
-					
+			
 			</div><!--end main--> 
 		
 			<div id="footer">
