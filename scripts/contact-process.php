@@ -30,7 +30,7 @@ if(isset($_POST['name']) && empty($_POST['spam_check']))
 	
 	if(empty($errors))
 	{		
-		if(mail('your@email.com', "Message from $input_name - $input_subject", $input_message, "From: $input_email"))
+		if(mail('sbchou@gmail.com', "Message from $input_name - $input_subject", $input_message, "From: $input_email"))
 		{
 			echo 'Thank You - your email has been sent.';
 		}
